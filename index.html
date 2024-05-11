@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pig Game</title>
+        <link rel="shortcut icon" href="icons/pig.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <audio src=""></audio>
+        <div class="welcome">
+            <div class="player card">
+                <div class="cover"></div>
+                <div class="shadow">
+                    <img src="icons/competition.svg" alt="" />
+                    <div class="text">
+                        <h2>Player</h2>
+                        <img src="icons/battle.svg" alt="" />
+                        <h2>Player</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="computer card">
+                <div class="cover"></div>
+                <div class="shadow">
+                    <img class="comp-img" src="icons/computer.svg" alt="comp" />
+                    <div class="text">
+                        <h2>Player</h2>
+                        <img src="icons/battle.svg" alt="" />
+                        <h2>Cpu</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div class="shade"><img src="icons/question-mark.svg" alt=""></div></li>
+                <li>
+                    <div class="shade"><img src="icons/main-menu2.svg" alt=""></div></li>
+                <li>
+                    <div class="shade"><img src="" alt=""></div></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="container">
+                <button class="new-game">
+                    <img src="icons/rotate.svg" alt="" />
+                    <p>new game</p>
+                </button>
+                <div class="dice-container">
+                    <div class="dice">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                        <div class="face right"></div>
+                        <div class="face left"></div>
+                    </div>
+                </div>
+                <button class="dice-btn">
+                    <img src="icons/dice.svg" alt="" />
+                    <p>Roll dice</p>
+                </button>
+                <button class="hold">
+                    <img src="icons/down.svg" alt="" />
+                    <p>hold</p>
+                </button>
+                <div class="first-play players player-active">
+                    <div class="head">
+                        <h2 class="title">Player 1</h2>
+                        <p class="total-score">0</p>
+                    </div>
+
+                    <div class="current">
+                        <p>current</p>
+                        <p class="current-score">0</p>
+                    </div>
+                </div>
+                <div class="second-play players">
+                    <div class="head">
+                        <h2 class="title">Player 2</h2>
+                        <p class="total-score">0</p>
+                    </div>
+
+                    <div class="current">
+                        <p>current</p>
+                        <p class="current-score">0</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="main">
+            <div class="container">
+                <button class="new-game">
+                    <img src="icons/rotate.svg" alt="" />
+                    <p>new game</p>
+                </button>
+                <div class="dice-container">
+                    <div class="dice">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                        <div class="face right"></div>
+                        <div class="face left"></div>
+                    </div>
+                </div>
+                <button class="dice-btn">
+                    <img src="icons/dice.svg" alt="" />
+                    <p>Roll dice</p>
+                </button>
+                <button class="hold">
+                    <img src="icons/down.svg" alt="" />
+                    <p>hold</p>
+                </button>
+                <div class="first-play players player-active">
+                    <div class="head">
+                        <h2 class="title">Player 1</h2>
+                        <p class="total-score">0</p>
+                    </div>
+
+                    <div class="current">
+                        <p>current</p>
+                        <p class="current-score">0</p>
+                    </div>
+                </div>
+                <div class="second-play players">
+                    <div class="head">
+                        <h2 class="title">Player 2</h2>
+                        <p class="total-score">0</p>
+                    </div>
+
+                    <div class="current">
+                        <p>current</p>
+                        <p class="current-score">0</p>
+                    </div>
+                </div>
+            </div>
+        </div class=".main">
+        <dialog class="tutorial">
+
+        </dialog>
+        <dialog class=""></dialog>
+        <script src="script.js"></script>
+    </body>
+</html>
